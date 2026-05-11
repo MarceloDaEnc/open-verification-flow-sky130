@@ -1,0 +1,13 @@
+# Pastas de simulação
+sim_build/
+**/sim_build/
+
+# Cache do Python
+__pycache__/
+**/__pycache__/
+
+# Waveforms
+*.vcd
+
+# Logs
+*.log

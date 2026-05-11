@@ -1,17 +1,16 @@
-# Makefile
-export PYTHONPATH := $(PWD)/../uvm/wrapper
+export PYTHONPATH := $(CURDIR)/../../uvm/:$(CURDIR)/../../uvm/wrapper:$(PYTHONPATH)
+
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 
-VERILOG_SOURCES += 	$(PWD)/../postlayout/netlist/impl_top_nl_refactored.v \
-					$(PWD)/../uvm/wrapper/uart_wrapper.v\
-					$(PWD)/../postlayout/tech/*.v
+VERILOG_SOURCES +=  $(CURDIR)/../../rtl/*.v \
+                    $(CURDIR)/../../uvm/wrapper/uart_rtl_wrapper.v
 
-TOPLEVEL = uart_tb_wrapper
-MODULE = tests.test_uart
+TOPLEVEL = uart_rtl_wrapper
+COCOTB_TEST_MODULES = components.test_uart
 
 # Specify log file for simulation output
-SIM_LOG_FILE = $(PWD)/testbench.log
+SIM_LOG_FILE = $(CURDIR)/testbench.log
 
 # Enable VCD waveform dump
 export WAVES = 1
