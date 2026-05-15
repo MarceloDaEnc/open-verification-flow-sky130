@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1778725373" />
+    <testcase name="UartSanityTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="73" time="10.771544694900513" sim_time_ns="6354050.0" ratio_time="589892.1816671427" />
+    <testcase name="UartCoverageTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="99" time="39.815284729003906" sim_time_ns="23019650.0" ratio_time="578161.1297440018" />
+    <testcase name="UartRandomTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="130" time="107.04399633407593" sim_time_ns="62496290.0" ratio_time="583837.4139634508" />
+  </testsuite>
+</testsuites>

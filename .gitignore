@@ -1,6 +1,8 @@
 # Pastas de simulação
 sim_build/
 **/sim_build/
+relatorio_de_cobertura/
+**/relatorio_de_cobertura/
 
 # Cache do Python
 __pycache__/
@@ -8,6 +10,8 @@ __pycache__/
 
 # Waveforms
 *.vcd
+*.fst
 
 # Logs
 *.log
+*.dat
