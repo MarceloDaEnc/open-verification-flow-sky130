@@ -18,4 +18,8 @@ impl_top dut(
     .led(led)
 );
 
+initial begin
+    $dumpvars(0);
+end
+
 endmodule

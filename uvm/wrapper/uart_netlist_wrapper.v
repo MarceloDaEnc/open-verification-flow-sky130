@@ -22,4 +22,8 @@ initial begin
     $sdf_annotate("../../postlayout/sdf/nom_tt_025C_1v80/impl_top__nom_tt_025C_1v80_refactored.sdf", dut);
 end
 
+initial begin
+    $dumpvars(0);
+end
+
 endmodule

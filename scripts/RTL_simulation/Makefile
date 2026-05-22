@@ -13,7 +13,7 @@ COCOTB_TEST_MODULES = components.test_uart
 SIM_LOG_FILE = $(CURDIR)/testbench.log
 
 # Enable VCD waveform dump
-export WAVES = 1
+# export WAVES = 1
 
 # Include Cocotb simulation rules
 include $(shell cocotb-config --makefiles)/Makefile.sim

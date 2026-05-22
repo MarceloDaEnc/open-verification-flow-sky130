@@ -18,7 +18,7 @@ COMPILE_ARGS += -DUNIT_DELAY=\#1 -DSKY130_FD_SC_HD__LPFLOW_BLEEDER_1_TIMING_V -D
 SIM_LOG_FILE = $(CURDIR)/testbench.log
 
 # Enable VCD waveform dump
-export WAVES = 1
+# export WAVES = 1
 
 # Include Cocotb simulation rules
 include $(shell cocotb-config --makefiles)/Makefile.sim
