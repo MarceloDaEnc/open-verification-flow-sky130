@@ -1,8 +1,12 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1779455709" />
-    <testcase name="UartSanityTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="73" time="20.82549810409546" sim_time_ns="6354050.0" ratio_time="305109.14880592644" />
-    <testcase name="UartCoverageTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="99" time="75.73206925392151" sim_time_ns="23019650.0" ratio_time="303961.719609398" />
-    <testcase name="UartRandomTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="130" time="213.2966001033783" sim_time_ns="62392130.0" ratio_time="292513.47639746935" />
+    <property name="random_seed" value="1780051161" />
+    <testcase name="UartSanityTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="73" time="22.254513025283813" sim_time_ns="6354050.0" ratio_time="285517.36866949336" />
+    <testcase name="UartCoverageTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="99" time="64.33232975006104" sim_time_ns="17494240.0" ratio_time="271935.4338319047">
+      <failure error_type="SimFailure" error_msg="Simulator shut down prematurely" />
+    </testcase>
+    <testcase name="UartRandomTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="130" time="0" sim_time_ns="0" ratio_time="nan">
+      <failure error_type="SimFailure" error_msg="Simulator shut down prematurely" />
+    </testcase>
   </testsuite>
 </testsuites>

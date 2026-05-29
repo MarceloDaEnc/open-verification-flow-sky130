@@ -1,8 +1,8 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1778470326" />
-    <testcase name="UartSanityTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="73" time="59.84212636947632" sim_time_ns="6354050.0" ratio_time="106180.21760739123" />
-    <testcase name="UartCoverageTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="99" time="223.0291931629181" sim_time_ns="23019650.0" ratio_time="103213.61824227484" />
-    <testcase name="UartRandomTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="130" time="671.9596457481384" sim_time_ns="62183810.0" ratio_time="92540.98872375964" />
+    <property name="random_seed" value="1779912597" />
+    <testcase name="UartSanityTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="73" time="66.26210021972656" sim_time_ns="6354050.0" ratio_time="95892.67437841288" />
+    <testcase name="UartCoverageTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="99" time="254.91539692878723" sim_time_ns="23019650.0" ratio_time="90303.0977231663" />
+    <testcase name="UartRandomTest" classname="components.test_uart" file="/home/marcelo/.local/share/pipx/venvs/cocotb/lib/python3.12/site-packages/pyuvm/extension_classes.py" lineno="130" time="719.9826323986053" sim_time_ns="62183810.0" ratio_time="86368.486129778" />
   </testsuite>
 </testsuites>
